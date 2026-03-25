@@ -1,4 +1,4 @@
-# 🏀 NBA Game Outcome Prediction Model
+# NBA Game Outcome Prediction Model
 
 A machine learning project that predicts NBA game outcomes by leveraging sportsbook-generated signals. The model produces win/loss predictions alongside calibrated win probabilities, benchmarked directly against sportsbook implied odds.
 
@@ -6,7 +6,7 @@ A machine learning project that predicts NBA game outcomes by leveraging sportsb
 
 ---
 
-## 📌 Overview
+## Overview
 
 With the rapid growth of sports betting, sportsbooks generate a large volume of historical odds data that serves as a powerful predictive signal. This project uses that data, specifically point spreads and game totals, to train a Logistic Regression model that predicts whether the home team wins a given NBA game.
 
@@ -14,7 +14,7 @@ A key goal was to explore whether a machine learning model can meaningfully outp
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 nba-outcome-prediction/
@@ -37,7 +37,7 @@ nba-outcome-prediction/
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Source:** [NBA Odds Data — Kaggle](https://www.kaggle.com/datasets/christophertreasure/nba-odds-data?resource=download)
 
@@ -47,7 +47,7 @@ The dataset contains historical NBA game odds data including point spreads, game
 
 ---
 
-## 🛠️ Methodology
+## Methodology
 
 ### Preprocessing
 
@@ -84,7 +84,7 @@ The dataset contains historical NBA game odds data including point spreads, game
 
 ---
 
-## 📈 Results
+## Results
 
 The final model was evaluated against the 2023–24 season (held-out test set) and compared to sportsbook implied probabilities:
 
@@ -98,7 +98,7 @@ The model showed **marginal improvement** over sportsbook predictions — reflec
 
 ---
 
-## 🔮 Implementation
+## Implementation
 
 ```python
 def predict_home_win(spread, total, season_phase):
@@ -133,7 +133,7 @@ predict_home_win(spread=-3.5, total=221.5, season_phase=3)
 
 ---
 
-## 🔧 Future Improvements
+## Future Improvements
 
 - **Include recent seasons** in training data to improve recency weighting
 - **Add back-to-back game flags** to capture fatigue effects
@@ -143,7 +143,7 @@ predict_home_win(spread=-3.5, total=221.5, season_phase=3)
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### Requirements
 
