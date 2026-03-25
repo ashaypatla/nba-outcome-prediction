@@ -170,6 +170,6 @@ pip install -r requirements.txt
 
 ---
 
-## 📝 Conclusion
+## Conclusion
 
 The model's predictions closely mirror sportsbook implied probabilities, with evaluation metrics showing modest but consistent improvement. This confirms that sportsbook odds are already highly efficient, yet room remains for targeted gains through richer feature engineering — particularly around team performance and game context.
