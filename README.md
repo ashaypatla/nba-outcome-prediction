@@ -31,7 +31,6 @@ nba-outcome-prediction/
 ├── src/
 │   └── predict.py                    # Standalone prediction function
 │
-├── requirements.txt                  # Python dependencies
 └── README.md
 ```
 
