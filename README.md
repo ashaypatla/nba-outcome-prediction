@@ -2,7 +2,7 @@
 
 A machine learning project that predicts NBA game outcomes by leveraging sportsbook-generated signals. The model produces win/loss predictions alongside calibrated win probabilities, benchmarked directly against sportsbook implied odds.
 
-> **Course:** INFO-629 | **Author:** Ashay Patla
+> **Course:** INFO-629
 
 ---
 
@@ -172,3 +172,7 @@ pip install -r requirements.txt
 ## Conclusion
 
 The model's predictions closely mirror sportsbook implied probabilities, with evaluation metrics showing modest but consistent improvement. This confirms that sportsbook odds are already highly efficient, yet room remains for targeted gains through richer feature engineering — particularly around team performance and game context.
+
+## Author
+
+Ashay Patla
